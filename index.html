@@ -93,10 +93,24 @@
         font-weight: 600;
         letter-spacing: 0.08em;
         color: var(--deep);
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        line-height: 1.1;
       }
       .nav-logo span {
         color: var(--rose);
         font-style: italic;
+      }
+      .nav-address {
+        font-family: "Jost", sans-serif;
+        font-size: 0.58rem;
+        font-weight: 400;
+        letter-spacing: 0.08em;
+        color: var(--text);
+        opacity: 0.55;
+        max-width: 320px;
+        line-height: 1.35;
       }
       .nav-links {
         display: flex;
@@ -843,7 +857,12 @@
 
     <!-- NAV -->
     <nav>
-      <div class="nav-logo">Yusni <span>Aesthetic</span> Clinic</div>
+      <div class="nav-logo">
+        <div>Yusni <span>Aesthetic</span> Clinic</div>
+        <div class="nav-address">
+          Jln. RW. Mongosidih Blok B-22 Oebobo-Kota Kupang
+        </div>
+      </div>
       <ul class="nav-links">
         <li><a href="#layanan">Layanan</a></li>
         <li><a href="#promo">Promo</a></li>
@@ -1134,7 +1153,7 @@
       </div>
       <div class="promo-dates">
         <div class="promo-date-tag">Periode Promo</div>
-        <div class="promo-date-num">1–15</div>
+        <div class="promo-date-num">10–31</div>
         <div class="promo-date-tag" style="color: #fff; opacity: 0.5">
           Maret 2026
         </div>
@@ -1232,7 +1251,7 @@
             <div class="contact-item-label">Lokasi</div>
             <div class="contact-item-val">
               Yusni Aesthetic Clinic <br />
-              Jln. RW. Mongosidih Blok B-22 Oebobo-Kupang, NTT
+              Jln. RW. Mongosidih Blok B-22 Oebobo-Kota Kupang
             </div>
           </div>
           <div class="contact-item">
@@ -1260,7 +1279,7 @@
     <footer>
       <div class="footer-logo">Yusni <span>Aesthetic</span> Clinic</div>
       <div class="footer-copy">
-        © 2026 Yusni Aesthetic Clinic. All rights reserved.
+        © 2025 Yusni Aesthetic Clinic. All rights reserved.
       </div>
       <div class="footer-flowers">✿ ✾ ✿</div>
     </footer>
